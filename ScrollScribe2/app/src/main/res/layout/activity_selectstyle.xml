@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context="com.example.robin.scrollscribe.selectstyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:text="Back"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_weight="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/back"
+        android:layout_alignBottom="@+id/back"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="20dp"
+        android:text="Hello, Name!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rumors"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/greeting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Rumors"
+        android:textSize="35dp"
+        android:textAlignment="viewEnd"
+        android:paddingTop="26dp"
+        android:paddingRight="20dp"
+        android:gravity="end"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/people"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/rumors"
+        android:layout_alignStart="@+id/rumors"
+        android:layout_below="@+id/rumors"
+        android:layout_marginTop="72dp"
+        android:text="People"
+        android:textSize="35dp"
+        android:textAlignment="viewStart"
+        android:paddingTop="26dp"
+        android:paddingLeft="20dp"
+        android:gravity="start"
+        android:onClick="onClick"/>
+
+
+</android.widget.LinearLayout>

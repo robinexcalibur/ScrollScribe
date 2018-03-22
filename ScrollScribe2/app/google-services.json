@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825634654588",
+    "project_id": "scrollscribe2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825634654588:android:adfac301b70a5a35",
+        "android_client_info": {
+          "package_name": "com.example.robin.scrollscribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825634654588-5jq6ccac4vhukgv20s365dfpq81p0f0r.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "825634654588-0f4ltptdduuags09ll4ds0poptttukut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.robin.scrollscribe",
+            "certificate_hash": "a0dfd86ab18f36d14f36149f1f37a1b5c1c95174"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzgq8RTzKHPVk0TOf0D_UOBjdN5ONKx0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

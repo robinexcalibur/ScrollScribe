@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.robin.scrollscribe.RumorsEdit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:text="Back"/>
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:text="Confirm"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/rumor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="5dp"
+        android:text="Tester Name"/>
+
+    <EditText
+        android:id="@+id/rumor_summery"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:text="@string/test_longtext"
+        android:gravity="top"
+        android:layout_margin="5dp"
+        android:textSize="16dp" />
+
+</android.widget.LinearLayout>
